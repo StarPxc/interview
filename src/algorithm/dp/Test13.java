@@ -7,7 +7,8 @@ package algorithm.dp;
  */
 public class Test13 {
     public static void main(String[] args) {
-
+    int arrs[]=new int[]{1,6,7,-8,-4,-9,7,8,4};
+        System.out.println(maxProduct(arrs));
     }
     private static int maxProduct(int[] nums) {
         if(nums == null || nums.length == 0){
